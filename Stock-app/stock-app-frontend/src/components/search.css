@@ -1,0 +1,79 @@
+/* Search.css */
+
+/* Apply background color and center content on the entire page */
+body {
+    background-color: #FFDFD6; /* Light, neutral background for the whole page */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center align text */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 2rem;
+    max-width: 800px; /* Set width for the container */
+    margin: 2rem auto; /* Center the container and add margin */
+  }
+  
+  h1 {
+    color: #2a2a2a; /* Darker text color for the heading */
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    margin-bottom: 1rem; /* Space below the heading */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem; /* Space below the form */
+  }
+  
+  input[type="text"] {
+    background-color: #694F8E; /* Background color for the text box */
+    color: white; /* Text color for the text box */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the text box */
+    padding: 0.75rem 1.25rem; /* Padding for the text box */
+    font-size: 1rem; /* Font size for the text box text */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limit the width of the text box */
+    margin-bottom: 1rem; /* Space below the text box */
+  }
+  
+  input[type="text"]::placeholder {
+    color: #e0e0e0; /* Lighter color for the placeholder text */
+  }
+  
+  button {
+    background-color: #C8A1E0; /* Background color for the button */
+    color: white; /* Text color for the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    padding: 0.75rem 1.5rem; /* Padding for the button */
+    font-size: 1rem; /* Font size for the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  }
+  
+  button:hover {
+    background-color: #a87ab2; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  h2 {
+    color: #2a2a2a; /* Darker text color for the section headings */
+    font-size: 2rem; /* Larger font size for emphasis */
+    margin-bottom: 1rem; /* Space below the section heading */
+  }
+  
+
+  
+
+  

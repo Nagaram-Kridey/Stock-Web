@@ -1,0 +1,39 @@
+/* About.css */
+
+/* Apply background color and center content on the entire page */
+body {
+    background-color: #FFDFD6; /* Light, neutral background for the whole page */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex; /* Use Flexbox to center content */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    height: 200vh; /* Full viewport height */
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center align text */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 2rem;
+    max-width: 850px; /* Decreased width for the container */
+  }
+  
+  h1 {
+    color: #2a2a2a; /* Darker text color for the heading */
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    margin-bottom: 1rem; /* Space below the heading */
+  }
+  
+  p {
+    color: #666; /* Slightly lighter color for the paragraph text */
+    font-size: 1.2rem; /* Increase font size for readability */
+    margin-top: 0; /* Remove margin at the top */
+  }
+  

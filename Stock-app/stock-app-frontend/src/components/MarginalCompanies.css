@@ -1,0 +1,62 @@
+/* MarginalCompanies.css */
+
+/* Apply background color and center content on the entire page */
+body {
+    background-color: #FFDFD6; /* Light, neutral background for the whole page */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .marginal-companies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center align text */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 2rem;
+    max-width: 800px; /* Set width for the container */
+    margin: 2rem auto; /* Center the container and add margin */
+  }
+  
+  h1 {
+    color: #2a2a2a; /* Darker text color for the heading */
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    margin-bottom: 1rem; /* Space below the heading */
+  }
+  
+  button {
+    background-color: #C8A1E0; /* Background color for the button */
+    color: white; /* Text color for the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    padding: 0.75rem 1.5rem; /* Padding for the button */
+    font-size: 1rem; /* Font size for the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    margin-bottom: 1rem; /* Space below the button */
+  }
+  
+  button:hover {
+    background-color: #a87ab2; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  li {
+    background-color: #f9f9f9; /* Light background for list items */
+    border: 1px solid #ddd; /* Border for list items */
+    border-radius: 4px; /* Rounded corners for list items */
+    padding: 0.75rem 1rem; /* Padding for list items */
+    margin-bottom: 0.5rem; /* Space between list items */
+    text-align: left; /* Align text to the left */
+  }
+  
